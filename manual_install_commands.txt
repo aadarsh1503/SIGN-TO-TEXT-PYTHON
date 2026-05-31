@@ -1,0 +1,31 @@
+EXACT WORKING VERSIONS - Manual Installation Commands
+=====================================================
+
+# Step 1: Cleanup (in Anaconda Prompt)
+pip uninstall tensorflow tensorflow-intel keras -y
+pip uninstall opencv-python opencv-contrib-python mediapipe numpy -y
+
+# Step 2: Install exact versions (one by one)
+pip install numpy==1.26.4
+pip install tensorflow==2.16.1
+pip install tensorflow-intel==2.16.1
+pip install keras==3.14.1
+pip install opencv-python==4.9.0.80
+pip install opencv-contrib-python==4.13.0.92
+pip install mediapipe==0.10.14
+pip install pyttsx3==2.90
+pip install pillow==10.0.0
+pip install pyenchant==3.2.2
+
+# Step 3: Remove conflicts
+pip uninstall jax jaxlib -y
+
+# Step 4: Test
+python -c "import tensorflow, keras, cv2, mediapipe, numpy; print('All working!')"
+
+# Step 5: Run application
+python final_pred.py
+
+=====================================================
+These are the EXACT versions working on your system!
+=====================================================

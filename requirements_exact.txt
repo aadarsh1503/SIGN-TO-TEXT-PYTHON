@@ -1,0 +1,11 @@
+# EXACT WORKING VERSIONS - Tested and Working
+numpy==1.26.4
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
+keras==3.14.1
+opencv-python==4.9.0.80
+opencv-contrib-python==4.13.0.92
+mediapipe==0.10.14
+pyttsx3==2.90
+pillow==10.0.0
+pyenchant==3.2.2
