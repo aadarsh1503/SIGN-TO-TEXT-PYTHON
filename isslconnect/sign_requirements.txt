@@ -1,0 +1,9 @@
+# Sign Recognition API Requirements
+flask==2.3.3
+flask-cors==4.0.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+tensorflow==2.16.1
+mediapipe==0.10.14
+pillow==10.0.0
+pyenchant==3.2.2
